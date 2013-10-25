@@ -1,0 +1,5 @@
+ru:
+  label_unclosed_issues: Задачи под закрытие
+  my:
+    blocks:
+      unclosed_issues: Задачи под закрытие

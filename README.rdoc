@@ -1,0 +1,4 @@
+= Redmine Unclosed Issues plugin
+
+Redmine My Page plugin adds block with issues to close
+

@@ -1,0 +1,5 @@
+en:
+    label_unclosed_issues: Issues to close
+  my:
+    blocks:
+      unclosed_issues: Issues to close
