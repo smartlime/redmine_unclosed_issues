@@ -1,4 +1,4 @@
-<h3><%=l(:label_unclosed_issues)%> (<%= Issue.visible.count(:conditions => { :author_id => User.current.id, :status_id => 3 }) %>)</h3>
+<h3><%=l(:label_unclosed_issues)%> (<%= Issue.visible.where(:author_id => User.current.id, :status_id => 3).count %>)</h3>
 
 <% reported_issues = Issue.visible.
         where(:author_id => User.current.id, :status_id => 3).
